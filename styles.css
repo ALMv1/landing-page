@@ -9,6 +9,29 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 250px;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-image {
+    width: 300px;
+    height: 200px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header {
@@ -18,12 +41,17 @@ body {
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .navbar {
     display: flex;
+}
+
+p {
+    font-size: 12px;
+    color: aliceblue;
 }
 
 ul {
@@ -35,4 +63,14 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+button {
+    background-color: rgb(0, 89, 255);
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+
 }
