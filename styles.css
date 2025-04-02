@@ -75,6 +75,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+    flex-direction: column;
 }
 
 .cta-card {
@@ -96,6 +98,11 @@ body {
     border-style: solid;
     border-radius: 5px;
     width: 120px;
+}
+
+.footer {
+    display: block;
+    background-color: rgb(32, 36, 97);
 }
 
 /* elements */
@@ -138,6 +145,11 @@ p {
     color: black;
     font-weight: 100;
     font-style: italic;
+}
+
+.footer h1 {
+    font-size: 20px;
+    color: white;
 }
 
 ul {
