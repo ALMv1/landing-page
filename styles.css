@@ -28,7 +28,7 @@ body {
     flex-direction: row; /* Cambia a columna si quieres que los elementos estén apilados */
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
-    gap: 20px; /* Espaciado entre elementos */
+    gap: 100px; /* Espaciado entre elementos */
 }
 
 /* body */
@@ -101,8 +101,11 @@ body {
 }
 
 .footer {
-    display: block;
+    display: flex;
     background-color: rgb(32, 36, 97);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* elements */
