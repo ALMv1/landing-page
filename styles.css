@@ -71,7 +71,32 @@ body {
     width: 800px;
 }
 
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cta-card {
+    background-color: royalblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 1000px;
+    height: 200px;
+}
+
+.cta-card button {
+    background-color: royalblue;
+    align-self: center;
+    margin: 0px 100px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+}
 
 /* elements */
 
