@@ -2,6 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* hero */
